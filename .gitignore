@@ -1,0 +1,19 @@
+# Configurações locais
+config/database.php
+
+# Uploads
+uploads/*
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Composer
+/vendor/
