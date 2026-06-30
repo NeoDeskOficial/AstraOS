@@ -15,4 +15,4 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Página inicial
-DirectoryIndex login.php
+DirectoryIndex index.php
